@@ -1,0 +1,35 @@
+table,th,td{
+    border: solid black;
+    border-collapse:collapse;
+}
+table{
+    width: 100%;
+    
+}
+img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: solid teal;
+}
+tr>td{
+    text-align: center;
+}
+tr>th{
+    background-color: rgb(226, 226, 8);
+    color: aliceblue;
+}
+th,td:nth-child(1){
+    background-color: brown;
+}
+tr,td{
+    /* background-color: rgb(236, 255, 249); */
+}
+img:hover{
+    width: 100px;
+    height: 100px;
+}
+tr:hover{
+    background-color: rgb(5, 65, 65);
+}
+
